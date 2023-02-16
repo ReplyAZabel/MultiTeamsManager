@@ -52,7 +52,7 @@ Here are some examples of how to use MultiTeamsManager:
 
 ## Conclusion
 
-MultiTeamsManager is a fantastic tool for those who need to use Microsoft Teams for multiple customers, projects, or teams. Microsoft does not allow users to open multiple instances of Teams with different profiles, but MultiTeamsManager solves this problem. With MultiTeamsManager, you can easily switch between different Teams profiles, allowing you to manage multiple communication channels and Teams tenants with ease. This is particularly useful for business cases where you need to communicate with multiple customers or teams and want to keep their information separate. With MultiTeamsManager, you can now manage all your Teams profiles efficiently and effectively, saving you time and making your work easier. So, if you want to take
+MultiTeamsManager is a fantastic tool for those who need to use Microsoft Teams for multiple customers, projects, or teams. Microsoft does not allow users to open multiple instances of Teams with different profiles, but MultiTeamsManager solves this problem. With MultiTeamsManager, you can easily switch between different Teams profiles, allowing you to manage multiple communication channels and Teams tenants with ease. This is particularly useful for business cases where you need to communicate with multiple customers or teams and want to keep their information separate. With MultiTeamsManager, you can now manage all your Teams profiles efficiently and effectively, saving you time and making your work easier.
 
 
 ## License
