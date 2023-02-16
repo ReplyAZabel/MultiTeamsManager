@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>MultiTeamsManager.Program</StartupObject>
+    <ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
+    <Authors>Alexander Zabel</Authors>
+    <Company />
+    <Description>Manage multiple Teams instances</Description>
+    <Copyright>2023 (c) Alexander Zabel</Copyright>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0" />
+    <PackageReference Include="Spectre.Console" Version="0.46.1-preview.0.7" />
+    <PackageReference Include="Spectre.Console.Cli" Version="0.46.1-preview.0.7" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\android-chrome-512x512.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Resources\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
